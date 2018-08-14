@@ -1,0 +1,23 @@
+{
+  "name": "tiny-tileserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilecloud/tiny-tileserver.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilecloud/tiny-tileserver/issues"
+  },
+  "homepage": "https://github.com/tilecloud/tiny-tileserver#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
