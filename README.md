@@ -6,7 +6,7 @@ This is a vector tile server for CI, E2E testing or so.
 
 Update `sources` and `glyphs` like following in `style.json` of your project.
 
-```
+```json
     "sources": {
       "openmaptiles": {
         "type": "vector",
@@ -18,7 +18,7 @@ Update `sources` and `glyphs` like following in `style.json` of your project.
 
 Or use `style.json` in this repository on your map like following.
 
-```
+```html
 <!doctype html>
 <html>
 <head>
