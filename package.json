@@ -12,7 +12,6 @@
     "url": "git+https://github.com/tilecloud/tiny-tileserver.git"
   },
   "author": "",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tilecloud/tiny-tileserver/issues"
   },
