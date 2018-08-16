@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<title>Vector Tile Example</title>
+<title>Example Tiny Tile Server | TileCloud</title>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
 <style>
@@ -24,15 +24,6 @@ body {
 
 <div id="map"></div>
 
-<script>
-    var map = new mapboxgl.Map({
-        container: 'map', 
-        style: 'https://tilecloud.github.io/tiny-tileserver/style.json',
-        attributionControl: true, 
-        hash: true
-    });
-    map.addControl(new mapboxgl.NavigationControl());
-    map.addControl(new mapboxgl.GeolocateControl());
-</script>
+<script src="./app.js"></script>
 </body>
 </html>

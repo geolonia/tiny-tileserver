@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -o",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && cd docs && http-server -o",
+    "watch": "parcel -d ${TMPDIR} example/index.html --open",
+    "build": "rm -fr docs && parcel build -d docs/ example/index.html --public-url '.' && touch docs/.nojekyll"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/tilecloud/tiny-tileserver#readme",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "@tilecloud/mbgl-fork-me-control": "^0.2.0",
+    "http-server": "^0.11.1",
+    "parcel": "^1.9.7"
+  },
+  "dependencies": {
+    "@tilecloud/mbgl-tilecloud-control": "^0.2.0"
   }
 }

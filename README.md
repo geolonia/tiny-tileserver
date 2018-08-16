@@ -2,6 +2,10 @@
 
 This is a vector tile server for CI, E2E testing or so.
 
+## DEMO
+
+https://tilecloud.github.io/tiny-tileserver/
+
 ## How to use
 
 Update `sources` and `glyphs` like following in `style.json` of your project.
@@ -58,10 +62,6 @@ body {
 </body>
 </html>
 ```
-
-## Example
-
-https://tilecloud.github.io/tiny-tileserver/
 
 ## LICENCE
 
