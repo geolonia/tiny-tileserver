@@ -14,8 +14,3 @@ map.addControl(new tileCloudControl());
 map.addControl(new ForkMeConntrol({
     url: "https://github.com/tilecloud/tiny-tileserver"
 }));
-
-map.addControl(new MapboxInspect({
-  showInspectMap: true,
-  showInspectButton: false
-}));
