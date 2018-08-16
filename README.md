@@ -67,6 +67,5 @@ body {
 
 This project is depending with following projects. Please see them.
 
-* https://github.com/openmaptiles/osm-bright-gl-style
 * https://github.com/googlei18n/noto-fonts
 * https://openmaptiles.org/
