@@ -1,0 +1,17 @@
+{
+  "format": "pbf",
+  "name": "OpenMapTiles",
+  "attribution": "<a href=\"https://www.openstreetmap.org/copyright/\" target=\"_blank\">&copy; OpenStreetMap Contributors</a>",
+  "description": "A tileset showcasing all layers in OpenMapTiles. http://openmaptiles.org",
+  "maxzoom": 5,
+  "id": "openmaptiles",
+  "center": [
+    139.691706,
+    35.689488,
+    5
+  ],
+  "tilejson": "2.0.0",
+  "tiles": [
+    "https://tilecloud.github.io/tiny-tileserver/tiles/{z}/{x}/{y}.mvt"
+  ]
+}
