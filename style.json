@@ -13,6 +13,7 @@
       "url": "https://tilecloud.github.io/tiny-tileserver/tiles.json"
     }
   },
+  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/sprite",
   "glyphs": "https://tilecloud.github.io/tiny-tileserver/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
