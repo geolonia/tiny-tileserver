@@ -5,7 +5,8 @@ const map = new mapboxgl.Map({
     container: 'map', 
     style: './style.json',
     attributionControl: true, 
-    hash: true
+    hash: true,
+    localIdeographFontFamily: ['sans-serif']
 });
 
 map.addControl(new mapboxgl.NavigationControl());
