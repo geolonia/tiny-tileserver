@@ -2046,7 +2046,6 @@
         "visibility": "visible",
         "text-field": "{name:latin}",
         "text-font": [
-          "Metropolis Light Italic",
           "Noto Sans Italic"
         ],
         "text-transform": "uppercase",
