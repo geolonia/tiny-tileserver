@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/tilecloud/tiny-tileserver#readme",
   "devDependencies": {
-    "@tilecloud/mbgl-fork-me-control": "*",
-    "@tilecloud/mbgl-tilecloud-control": "*",
+    "@tilecloud/mbgl-fork-me-control": "^0.2.4",
+    "@tilecloud/mbgl-tilecloud-control": "^0.3.4",
     "http-server": "^0.11.1",
     "parcel": "^1.9.7"
   }
