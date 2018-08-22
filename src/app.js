@@ -1,5 +1,6 @@
 import tileCloudControl from '@tilecloud/mbgl-tilecloud-control'
 import ForkMeConntrol from '@tilecloud/mbgl-fork-me-control'
+import jaPrefs from '@tilecloud/mbgl-japanese-prefs'
 
 const map = new mapboxgl.Map({
     container: 'map', 
@@ -15,3 +16,5 @@ map.addControl(new tileCloudControl());
 map.addControl(new ForkMeConntrol({
     url: "https://github.com/tilecloud/tiny-tileserver"
 }));
+
+new jaPrefs({label: "{name}"}).addTo(map)

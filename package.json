@@ -21,5 +21,8 @@
     "@tilecloud/mbgl-tilecloud-control": "^0.3.4",
     "http-server": "^0.11.1",
     "parcel": "^1.9.7"
+  },
+  "dependencies": {
+    "@tilecloud/mbgl-japanese-prefs": "^0.1.1"
   }
 }
