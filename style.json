@@ -1931,10 +1931,10 @@
       "layout": {
         "text-field": "{en}\n{name}",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-size": 14,
-        "text-anchor": "top",
+        "text-anchor": "center",
         "text-max-width": 10,
         "text-offset": [
           0,
