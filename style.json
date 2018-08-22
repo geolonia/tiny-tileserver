@@ -235,7 +235,7 @@
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
         "text-font": [
-          "Noto Sans Italic"
+          "Noto Sans CJK Regular"
         ],
         "text-size": 12
       },
@@ -1357,7 +1357,7 @@
         "text-transform": "uppercase",
         "symbol-spacing": 350,
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "none",
@@ -1401,7 +1401,7 @@
         "text-size": 10,
         "symbol-spacing": 350,
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "none",
@@ -1538,7 +1538,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1582,7 +1582,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1626,7 +1626,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1685,7 +1685,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1754,51 +1754,19 @@
       ],
       "layout": {
         "text-size": 16,
-        "icon-image": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "circle-11"
-            ],
-            [
-              8,
-              ""
-            ]
-          ]
-        },
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
-        "text-offset": [
-          0.5,
-          0.2
-        ],
-        "icon-size": 0.4,
-        "text-anchor": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "left"
-            ],
-            [
-              8,
-              "center"
-            ]
-          ]
-        },
         "text-field": "{name}"
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "rgb(242,243,240)",
         "text-halo-width": 2,
-        "text-halo-blur": 1,
-        "icon-opacity": 0.7
+        "text-halo-blur": 1
       }
     },
     {
@@ -1833,51 +1801,19 @@
       ],
       "layout": {
         "text-size": 16,
-        "icon-image": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "star-11"
-            ],
-            [
-              8,
-              ""
-            ]
-          ]
-        },
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
-        "text-offset": [
-          0.5,
-          0.2
-        ],
-        "icon-size": 1,
-        "text-anchor": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "left"
-            ],
-            [
-              8,
-              "center"
-            ]
-          ]
-        },
         "text-field": "{name}"
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "rgb(242,243,240)",
         "text-halo-width": 2,
-        "text-halo-blur": 1,
-        "icon-opacity": 0.7
+        "text-halo-blur": 1
       }
     },
     {
@@ -1917,52 +1853,19 @@
       ],
       "layout": {
         "text-size": 16,
-        "icon-image": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "circle-11"
-            ],
-            [
-              8,
-              ""
-            ]
-          ]
-        },
         "text-transform": "uppercase",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
-        "text-offset": [
-          0.5,
-          0.2
-        ],
-        "icon-size": 0.4,
-        "text-anchor": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "left"
-            ],
-            [
-              8,
-              "center"
-            ]
-          ]
-        },
         "text-field": "{name}"
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "rgb(242,243,240)",
         "text-halo-width": 2,
-        "text-halo-blur": 1,
-        "icon-opacity": 0.7,
-        "icon-halo-color": "rgba(236, 228, 228, 0)"
+        "text-halo-blur": 1
       }
     },
     {
@@ -1991,7 +1894,7 @@
         "visibility": "visible",
         "text-field": "{name}",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 14
@@ -2033,7 +1936,7 @@
         "visibility": "visible",
         "text-field": "{name}",
         "text-font": [
-          "Noto Sans Italic"
+          "Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 16
@@ -2091,7 +1994,7 @@
         "visibility": "visible",
         "text-field": "{name}",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 16
@@ -2149,7 +2052,7 @@
         "visibility": "visible",
         "text-field": "{name}",
         "text-font": [
-          "Noto Sans Regular"
+          "Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 16,
