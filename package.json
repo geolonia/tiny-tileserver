@@ -23,6 +23,6 @@
     "parcel": "^1.9.7"
   },
   "dependencies": {
-    "@tilecloud/mbgl-japanese-prefs": "^0.1.1"
+    "@tilecloud/mbgl-japanese-prefs": "^0.1.4"
   }
 }

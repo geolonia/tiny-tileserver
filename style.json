@@ -11,6 +11,10 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://tilecloud.github.io/tiny-tileserver/tiles.json"
+    },
+    "japanese-prefectures": {
+      "type": "geojson",
+      "data": "https://tilecloud.github.io/tiny-tileserver/prefs.json"
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
@@ -1911,6 +1915,32 @@
         "text-halo-color": "rgb(242,243,240)",
         "text-halo-width": 2,
         "text-halo-blur": 1
+      }
+    },
+    {
+      "id": "japanese-prefectures-label",
+      "type": "symbol",
+      "minzoom": 0,
+      "maxzoom": 9,
+      "source": "japanese-prefectures",
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2
+      },
+      "layout": {
+        "text-field": "{en}\n{name}",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14,
+        "text-anchor": "top",
+        "text-max-width": 10,
+        "text-offset": [
+          0,
+          0
+        ],
+        "text-allow-overlap": false
       }
     },
     {
