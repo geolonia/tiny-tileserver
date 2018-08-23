@@ -17,7 +17,7 @@
       "data": "https://tilecloud.github.io/tiny-tileserver/prefs.json"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "sprite": "https://sprites.tilecloud.io/maki",
   "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
   "layers": [
     {
