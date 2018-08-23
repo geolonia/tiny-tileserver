@@ -18,7 +18,7 @@
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://tilecloud.github.io/tiny-tileserver/glyphs/{fontstack}/{range}.pbf",
+  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
