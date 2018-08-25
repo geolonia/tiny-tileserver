@@ -54,7 +54,8 @@ body {
         container: 'map', 
         style: 'https://tilecloud.github.io/tiny-tileserver/style.json',
         attributionControl: true, 
-        hash: true
+        hash: true,
+        localIdeographFontFamily: ['sans-serif']
     });
     map.addControl(new mapboxgl.NavigationControl());
     map.addControl(new mapboxgl.GeolocateControl());
