@@ -4,7 +4,7 @@ This is a vector tile server for CI, E2E testing or so.
 
 ## DEMO
 
-https://tilecloud.github.io/tiny-tileserver/
+https://geolonia.github.io/tiny-tileserver/
 
 ## How to use
 
@@ -14,10 +14,10 @@ Update `sources` and `glyphs` like following in `style.json` of your project.
     "sources": {
       "openmaptiles": {
         "type": "vector",
-        "url": "https://tilecloud.github.io/tiny-tileserver/tiles.json"
+        "url": "https://geolonia.github.io/tiny-tileserver/tiles.json"
       }
     },
-    "glyphs": "https://tilecloud.github.io/tiny-tileserver/glyphs/{fontstack}/{range}.pbf",
+    "glyphs": "https://geolonia.github.io/tiny-tileserver/glyphs/{fontstack}/{range}.pbf",
 ```
 
 Or use `style.json` in this repository on your map like following.
@@ -52,7 +52,7 @@ body {
 <script>
     var map = new mapboxgl.Map({
         container: 'map', 
-        style: 'https://tilecloud.github.io/tiny-tileserver/style.json',
+        style: 'https://geolonia.github.io/tiny-tileserver/style.json',
         attributionControl: true, 
         hash: true,
         localIdeographFontFamily: ['sans-serif']

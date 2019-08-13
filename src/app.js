@@ -13,5 +13,5 @@ map.addControl(new mapboxgl.NavigationControl());
 map.addControl(new mapboxgl.GeolocateControl());
 map.addControl(new GeoloniaControl());
 map.addControl(new ForkMeControl({
-    url: "https://github.com/tilecloud/tiny-tileserver"
+    url: "https://github.com/geolonia/tiny-tileserver"
 }));
