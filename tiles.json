@@ -12,6 +12,6 @@
   ],
   "tilejson": "2.0.0",
   "tiles": [
-    "https://tilecloud.github.io/tiny-tileserver/tiles/{z}/{x}/{y}.mvt"
+    "https://geolonia.github.io/tiny-tileserver/tiles/{z}/{x}/{y}.mvt"
   ]
 }

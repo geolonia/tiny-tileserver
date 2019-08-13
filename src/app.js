@@ -1,17 +1,17 @@
-import tileCloudControl from '@tilecloud/mbgl-tilecloud-control'
-import ForkMeConntrol from '@tilecloud/mbgl-fork-me-control'
+import GeoloniaControl from '@tilecloud/mbgl-tilecloud-control'
+import ForkMeControl from '@geolonia/mbgl-fork-me-control'
 
 const map = new mapboxgl.Map({
-    container: 'map', 
+    container: 'map',
     style: './style.json',
-    attributionControl: true, 
+    attributionControl: true,
     hash: true,
     localIdeographFontFamily: ['sans-serif']
 });
 
 map.addControl(new mapboxgl.NavigationControl());
 map.addControl(new mapboxgl.GeolocateControl());
-map.addControl(new tileCloudControl());
-map.addControl(new ForkMeConntrol({
+map.addControl(new GeoloniaControl());
+map.addControl(new ForkMeControl({
     url: "https://github.com/tilecloud/tiny-tileserver"
 }));

@@ -10,11 +10,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://tilecloud.github.io/tiny-tileserver/tiles.json"
+      "url": "https://geolonia.github.io/tiny-tileserver/tiles.json"
     },
     "japanese-prefectures": {
       "type": "geojson",
-      "data": "https://tilecloud.github.io/tiny-tileserver/prefs.json"
+      "data": "https://geolonia.github.io/tiny-tileserver/prefs.json"
     }
   },
   "sprite": "https://sprites.tilecloud.io/maki",

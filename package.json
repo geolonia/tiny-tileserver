@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/tilecloud/tiny-tileserver#readme",
   "devDependencies": {
-    "@tilecloud/mbgl-fork-me-control": "^0.2.4",
+    "@geolonia/mbgl-fork-me-control": "^0.2.7",
     "@tilecloud/mbgl-tilecloud-control": "^0.3.4",
     "http-server": "^0.11.1",
-    "parcel": "^1.9.7"
+    "parcel": "^1.12.3"
   },
   "dependencies": {
     "@tilecloud/mbgl-japanese-prefs": "^0.1.4"
