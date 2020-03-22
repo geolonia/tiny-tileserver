@@ -21,5 +21,5 @@ tippecanoe -o tmp/large.mbtiles -z8 -Z7 ./tmp/large/10m_cultural/*.geojson
 
 tile-join -f -o tmp/all.mbtiles ./tmp/large.mbtiles ./tmp/medium.mbtiles ./tmp/small.mbtiles
 # tileserver-gl tmp/all.mbtiles
-mb-util tmp/all.mbtiles tiles
-rm -rf tmp
+mb-util tmp/all.mbtiles tiles  --image_format=pbf
+
