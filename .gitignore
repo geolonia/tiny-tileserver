@@ -75,3 +75,4 @@ typings/
 .serverless
 
 tmp
+.DS_Store
