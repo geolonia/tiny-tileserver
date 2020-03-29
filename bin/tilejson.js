@@ -12,7 +12,7 @@ const base = {
   id: "openmaptiles",
   center: [139.691706, 35.689488, 10],
   tilejson: "2.0.0",
-  tiles: ["https://geolonia.github.io/tiny-tileserver/tiles/{z}/{x}/{y}.mvt"]
+  tiles: ["http://127.0.0.1:8080/tiles/{z}/{x}/{y}.mvt"]
 };
 
 const { vector_layers } = JSON.parse(metadata.json);
