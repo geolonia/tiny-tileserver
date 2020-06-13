@@ -1,8 +1,7 @@
 {
   "format": "pbf",
   "name": "OpenMapTiles",
-  "attribution": "<a href=\"https://www.openstreetmap.org/copyright/\" target=\"_blank\">&copy; OpenStreetMap Contributors</a>",
-  "description": "A tileset showcasing all layers in OpenMapTiles. http://openmaptiles.org",
+  "attribution": "<a href=\"https://www.naturalearthdata.com/\" target=\"_blank\">&copy; Natural Earth</a>",
   "maxzoom": 5,
   "id": "openmaptiles",
   "center": [
