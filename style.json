@@ -17,8 +17,8 @@
       "data": "https://geolonia.github.io/tiny-tileserver/prefs.json"
     }
   },
-  "sprite": "https://sprites.tilecloud.io/maki",
-  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
+  "sprite": "https://sprites.geolonia.com/maki",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

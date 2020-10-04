@@ -1,4 +1,4 @@
-import GeoloniaControl from '@tilecloud/mbgl-tilecloud-control'
+import GeoloniaControl from '@geolonia/mbgl-geolonia-control'
 import ForkMeControl from '@geolonia/mbgl-fork-me-control'
 
 const map = new mapboxgl.Map({

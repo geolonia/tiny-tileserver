@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tilecloud/tiny-tileserver.git"
+    "url": "git+https://github.com/geolonia/tiny-tileserver.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/tilecloud/tiny-tileserver/issues"
+    "url": "https://github.com/geolonia/tiny-tileserver/issues"
   },
-  "homepage": "https://github.com/tilecloud/tiny-tileserver#readme",
+  "homepage": "https://github.com/geolonia/tiny-tileserver#readme",
   "devDependencies": {
     "@geolonia/mbgl-fork-me-control": "^0.2.7",
-    "@tilecloud/mbgl-tilecloud-control": "^0.3.4",
-    "http-server": "^0.11.1",
-    "parcel": "^1.12.3"
+    "@geolonia/mbgl-geolonia-control": "^0.3.9",
+    "http-server": "^0.12.3",
+    "parcel": "^1.12.4"
   },
   "dependencies": {
     "@tilecloud/mbgl-japanese-prefs": "^0.1.4"
